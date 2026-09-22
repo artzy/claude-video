@@ -27,7 +27,8 @@ Agent Skills package that gives an agent a video input. Installable across Claud
 | Surface | Install |
 |---------|---------|
 | Claude Code | `/plugin marketplace add bradautomates/claude-video` then `/plugin install watch@claude-video` |
-| Codex / Cursor / Copilot / +50 | `npx skills add bradautomates/claude-video -g` |
+| Codex / Cursor / Copilot / +50 | `npx skills add bradautomates/claude-video -g` (Cursor-only: add `-a cursor`) |
+| Cursor (dev, this repo) | Junction/symlink `skills/watch` → `.cursor/skills/watch` and/or `~/.cursor/skills/watch` |
 | claude.ai (web) | upload `dist/watch.skill` (built by `skills/watch/scripts/build-skill.sh`) |
 
 ## Commands

@@ -2,6 +2,13 @@
 
 All notable changes to `/watch` are documented here.
 
+## [0.2.1] — 2026-08-05
+
+### Changed
+- **Cursor / multi-harness polish** — `SKILL.md` documents `~/.cursor/skills` and project `.cursor/skills` install paths, accepts `Shell` alongside `Bash`, and treats first-run questions as chat when `AskUserQuestion` is unavailable (Cursor).
+- **Windows / PowerShell** — SKILL guard + cleanup examples for PowerShell; README documents junction-based Cursor install on Windows.
+- Descriptions and plugin metadata are agent-neutral (not Claude-only) so Cursor and other hosts discover the skill cleanly.
+
 ## [0.2.0] — 2026-06-29
 
 ### Added
